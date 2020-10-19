@@ -11,8 +11,8 @@
     <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> -->
 </head>
 <body>
-    <br>
     <table>
+        <br>
         <tr>
           <th class="ime">Ime</th>
           <th class="prezime">Prezime</th>
@@ -32,9 +32,20 @@
           <td>Petar</td>
           <td>Petrović</td>
           <td>6134527891234</td>
+        </tr>
+        <?php
+        $ime=$_POST["ime"];
+        $prezime=$_POST["prezime"];
+        $jmbg=$_POST["jmbg"];
+
+         echo "<tr>"; 
+         echo "<td>$ime</td>";
+         echo "<td>$prezime</td>"; 
+         echo "<td>$jmbg</td>"; 
+         echo "</tr>"; ?>
       </table>
-<br>
-<br>
+      <br>
+      <br>
       <form class="forma1" action="dzo2.php" method="POST">
         <label for="ime">Ime</label>
         <input type="text" id="ime" name="ime" value=""><br>

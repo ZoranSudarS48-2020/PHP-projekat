@@ -1,7 +1,91 @@
-table, th, td {
-  border: 1px solid black;
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+.ime{
+    text-align: center; 
+    vertical-align: middle; 
+    background-color: lightblue;
 }
-p.info {
-  color:red; 
-  text-align: center;
+
+.prezime{
+    text-align: right; 
+    vertical-align: middle; 
+    background-color: yellow;
+}
+
+.jmbg{
+    text-align: left; 
+    vertical-align: middle; 
+    background-color: lightgreen;
+}
+
+table {
+    width: 500px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+table,td,th{ 
+    border:2px solid;
+    border-color:darkgreen; 
+    border-collapse: collapse;
+} 
+
+td:nth-child(1)
+{
+    text-align: center; 
+    vertical-align: middle;
+    background-color: lightblue;
+}
+td:nth-child(2)
+{
+    text-align: right; 
+    vertical-align: middle;  
+  background-color: yellow;
+}
+td:nth-child(3)
+{
+  background-color: lightgreen;
+  text-align: left; 
+  vertical-align: middle; 
+} 
+
+.forma1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 452px;
+    padding: 20px;
+    border: 4px solid green;  
+}
+
+label {
+    display:inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+ input[type=text] {
+    margin-bottom: 20px;
+    width: 150px;
+  } 
+
+  .btn {
+    background-color: lightgrey;
+    border: solid 1px ; 
+    position: relative;
+    left: 148px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  #drugi_red{
+    color: red; 
+    background-color: lightgreen
 }
